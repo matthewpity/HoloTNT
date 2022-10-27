@@ -1,0 +1,6 @@
+main: me.Matthew.HoloTNT.HoloTNTPlugin
+name: HoloTNT
+version: 1.0
+author: Matthew
+prefix: HoloTNT
+description: "Shows custom hologram with TNT explosion timer."
