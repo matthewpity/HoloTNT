@@ -1,5 +1,5 @@
 # HoloTNT
- Spigot plugin that shows holograms with TNT explosion timer
+ Spigot plugin that shows holograms with TNT explosion timer.
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/71346318/198253566-bd52c0ea-a684-4681-9d31-9577afae3d70.png)
