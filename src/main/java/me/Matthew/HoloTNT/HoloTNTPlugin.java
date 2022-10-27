@@ -18,11 +18,12 @@ public class HoloTNTPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         runnable();
+        getConfig = getConfigUtil.getConfig("config.yml");
     }
 
     public final ConfigUtil getConfigUtil = new ConfigUtil(this);
 
-    public final FileConfiguration getConfig = getConfigUtil.getConfig("config.yml");
+    public FileConfiguration getConfig;
 
     public String getHologramTemplate(){
         if (getConfig.getString("hologram") == null) return " ";
